@@ -1,0 +1,54 @@
+/*font-family: 'Dancing Script', cursive;
+font-family: 'Mate SC', serif;*/
+
+body {
+    background-image: url("./assets/fruits.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#nav {
+    background-color: rgba(136, 83, 4,40%);
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 2%;
+}
+p{
+    margin-left: 2%;
+}
+a:hover {
+    color: rgb(223, 177, 26);
+    padding: 3px 3px 0px 3px;
+    background-color: rgba(7, 1, 1,0.5);
+}
+nav ul li{
+    list-style: none;
+    display: inline;
+    padding-right: 3px;
+}
+#about {
+    text-align: center;
+    font-family: 'Mate SC', serif;
+    font-size: 24px;
+}
+#products {
+    display: flex;
+}
+#products div {
+    padding: 10px 20px 10px 20px;
+    margin: 0 5px 0 5px;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+}
+#products>div {
+    background-color: burlywood;
+    opacity: 0.9;
+}
+footer {
+    background-color: burlywood;
+    padding: 10px;
+    margin: 50px;
+    float: auto;
+    text-align: center;
+}
